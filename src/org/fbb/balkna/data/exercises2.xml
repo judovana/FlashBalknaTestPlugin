@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exercises>
+    <exercises-set>
+        <exercise>
+            <id>EX1_01</id>
+            <names>
+                <name>Slow Push up</name>
+                <name locale="cs">Velmi pomalé shyby</name>
+            </names>
+            <descriptions>
+                <description>Go up really quickly - on word "go"  dynamically up, and then going slowly donw. On half, you should behalf way down (image 5). On "rest" you will just arrive down and hang for second.</description>
+                <description locale="cs">Dynamicky na horu, na povel "start", potom po celý prúběh cviku pomaly dolú. Ano, v polovině času je třeba být v polovině sestupu. Dole sekundička a zase nahoru</description>            
+            </descriptions>
+            <images>
+                <image>push1.jpg</image> <!-- %{id} mark is replaced by id-->
+                <image>push2.jpg</image> <!-- %{id} mark is replaced by id-->
+                <image>push3.jpg</image> <!-- %{id} mark is replaced by id-->
+                <image>push4.jpg</image> <!-- %{id} mark is replaced by id-->
+                <image>push5.jpg</image> <!-- %{id} mark is replaced by id-->
+                <image>push6.jpg</image> <!-- %{id} mark is replaced by id-->
+                <image>push7.jpg</image> <!-- %{id} mark is replaced by id-->
+                <image>push8.jpg</image> <!-- %{id} mark is replaced by id-->
+                <image>push9.jpg</image> <!-- %{id} mark is replaced by id-->
+            </images>
+            <defaults>
+                <time>8</time> <!--seconds -->
+                <pause>1</pause> <!--seconds -->
+                <iterations>10</iterations>
+                <rest>300</rest> <!-- rest (default) after whole exercise-->
+            </defaults>
+        </exercise>
+    
+        <exercise>
+            <id>EX1_02</id>
+            <names>
+                <name>Dynamical push ups with rest on one hand</name>
+                <name locale="cs">Dynamické shyby s odpočinkem na jedné ruce</name>
+            </names>
+            <descriptions>
+                <description>For ten seconds (or as told) do pushups as quickly as possible  - both ways up and down. Dont ganf down completly. In rest, rest half time on one hand, half on second. Then again.</description>
+                <description locale="cs">Po danou dobu shybovat jak o život, pak odpočinek ve visu na jedné ruce. v polovině pauzy rucee prohodit.</description>            
+            </descriptions>-->
+            <images>
+                <image>push1.jpg</image> <!-- %{id} mark is replaced by id-->
+                <image>push2.jpg</image> <!-- %{id} mark is replaced by id-->
+                <image>pushRest1.jpg</image> 
+                <image>pushRest2.jpg</image> 
+            </images>
+            <defaults>
+                <time>10</time> <!--seconds -->
+                <pause>10</pause> <!--seconds -->
+                <iterations>4</iterations>
+                <rest>300</rest> <!-- rest (default) after whole exercise-->
+            </defaults>
+        </exercise>
+
+      
+    </exercises-set>
+</exercises>

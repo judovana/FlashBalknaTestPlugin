@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<trainings>
+    <training>
+        <id>TEX_1</id>
+        <names>
+            <name>Very slow push ups</name>
+            <name locale="cs">Pomalé shyby</name>
+        </names>
+        <descriptions>
+            <description>This is an example plugin training. However well intended, is is technical preview, not tuned training</description>
+            <description locale="cs">Testovací tréninkový plugin, jakkoliv zajímavý trénink v němje, je to myšleno jako technologická ukázka, ne trénink</description>            
+        </descriptions>
+        <!-- voulenteer image
+        <images>
+            <image>imgX.jpg</image>
+            <image>imgY.jpg</image>
+        </images>
+        -->        
+        <exercises>
+            <exercise>
+                <id>EX1_01</id>
+                <overrides>
+                    <!--any field from exercise can be overridenhere-->
+                    <!--<time>15</time>
+                    <pause>15</pause>
+                    <iterations>3</iterations>
+                    <rest>45</rest>-->
+                    <time>6</time>
+                    <rest>150</rest>
+                </overrides>
+            </exercise>    
+            <exercise>
+                <id>EX1_01</id>
+            </exercise>  
+            <exercise>
+                <id>EX1_01</id>
+                <overrides>
+                    <!--any field from exercise can be overridenhere-->
+                    <!--<time>15</time>
+                    <pause>15</pause>
+                    <iterations>3</iterations>
+                    <rest>45</rest>-->
+                    <time>10</time>
+                </overrides>
+            </exercise>  
+            <exercise>
+                <id>EX1_01</id>
+            </exercise>  
+            <exercise>
+                <id>EX1_01</id>
+            </exercise>  
+        </exercises>    
+    </training>
+    
+    <training>
+        <id>TEX_2</id>
+        <names>
+            <name>A lot of dynamic push ups</name>
+            <name locale="cs">Spousta dynamických shybů</name>
+        </names>
+        <descriptions>
+            <description>This is an example plugin training. However well intended, is is technical preview, not tuned training</description>
+            <description locale="cs">Testovací tréninkový plugin, jakkoliv zajímavý trénink v něm je, je to myšleno jako technologická ukázka, ne trénink</description>            
+        </descriptions>
+        <!-- voulenteer image
+        <images>
+            <image>imgX.jpg</image>
+            <image>imgY.jpg</image>
+        </images>
+        -->
+        <exercises>
+            <exercises-set count="5">
+                <exercise>
+                    <id>EX1_02</id>
+                    <overrides>
+                        <!-- making first pushup run longer -->
+                        <time>15</time>
+                        <iterations>1</iterations>
+                        <rest>10</rest>
+                    </overrides>
+                </exercise>
+                <exercise>
+                    <id>EX1_02</id>
+                    <overrides>
+                        <!-- so now only three iterations -->
+                        <iterations>3</iterations>
+                    </overrides>
+                </exercise>
+            </exercises-set>            
+        </exercises>
+    </training>
+</trainings>
