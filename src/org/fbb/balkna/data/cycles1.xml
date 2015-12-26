@@ -3,13 +3,19 @@
 	<cycle>
 		<id>cycle1</id>
 		<names>
-			<name></name>
-			<name locale="cs"></name>
+			<name>From easy to hard in a month</name>
+			<name locale="cs">Z lehkýho na těžký za měsíc</name>
 		</names>
 		<descriptions>
-			<description></description>
-			<description locale="cs"></description>
+			<description>6 cycles. Three days, one day brak. 18 days of training, 5 days of resting. Longer paus ethe day should not meter, but three days in row should be held.</description>
+			<description locale="cs">6 cyklů. tři dny pak den pauza. Celem 18 dnů cičení, 5 dní pauz.  Delší než jednodenní pauza by vadit nemělla, ale tři dny visů by měli být dodženy.</description>
 		</descriptions>
+        <!-- voulenteer image
+        <images>
+            <image>imgX.jpg</image>
+            <image>imgY.jpg</image>
+        </images>
+        -->     
 		<trainings>
 			<training>
 				<id>fbb1</id>
@@ -39,6 +45,7 @@
 					<iterations>1</iterations>
 					<rest>1</rest>
 				</changes>
+				<suggestbreak>true</suggestbreak>
 			</training>
 <!--day break-->
 			<training>
@@ -67,6 +74,7 @@
 					<iterations>1</iterations>
 					<rest>1</rest>
 				</changes>
+				<suggestbreak>true</suggestbreak>
 			</training>
 <!--day break-->
 			<training>
@@ -95,6 +103,7 @@
 					<iterations>1</iterations>
 					<rest>1</rest>
 				</changes>
+				<suggestbreak>true</suggestbreak>
 			</training>
 <!--day break-->
 			<training>
@@ -123,6 +132,7 @@
 					<iterations>1</iterations>
 					<rest>1</rest>
 				</changes>
+				<suggestbreak>true</suggestbreak>
 			</training>
 <!--day break-->
 			<training>
@@ -151,6 +161,7 @@
 					<iterations>1</iterations>
 					<rest>1</rest>
 				</changes>
+				<suggestbreak>true</suggestbreak>
 			</training>
 <!--day break-->
 			<training>
@@ -179,6 +190,7 @@
 					<iterations>1</iterations>
 					<rest>1</rest>
 				</changes>
+				<suggestbreak>true</suggestbreak>
 			</training>
 		</trainings>
 	</cycle>
