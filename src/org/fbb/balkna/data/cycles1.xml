@@ -45,7 +45,12 @@
 					<iterations>1</iterations>
 					<rest>1</rest>
 				</changes>
-				<suggestbreak>true</suggestbreak>
+				<suggestbreak>
+                                    <descriptions>
+                                        <description>day or two</description>
+                                        <description locale="cs">Den či dva</description>
+                                    </descriptions>
+                                </suggestbreak>
 			</training>
 <!--day break-->
 			<training>
@@ -74,7 +79,12 @@
 					<iterations>1</iterations>
 					<rest>1</rest>
 				</changes>
-				<suggestbreak>true</suggestbreak>
+				<suggestbreak>
+                                    <descriptions>
+                                        <description>day or two</description>
+                                        <description locale="cs">Den či dva</description>
+                                    </descriptions>
+                                </suggestbreak>
 			</training>
 <!--day break-->
 			<training>
@@ -103,7 +113,12 @@
 					<iterations>1</iterations>
 					<rest>1</rest>
 				</changes>
-				<suggestbreak>true</suggestbreak>
+				<suggestbreak>
+                                    <descriptions>
+                                        <description>day or two</description>
+                                        <description locale="cs">Den či dva</description>
+                                    </descriptions>
+                                </suggestbreak>
 			</training>
 <!--day break-->
 			<training>
@@ -132,7 +147,12 @@
 					<iterations>1</iterations>
 					<rest>1</rest>
 				</changes>
-				<suggestbreak>true</suggestbreak>
+				<suggestbreak>
+                                    <descriptions>
+                                        <description>day or two</description>
+                                        <description locale="cs">Den či dva</description>
+                                    </descriptions>
+                                </suggestbreak>
 			</training>
 <!--day break-->
 			<training>
@@ -161,7 +181,12 @@
 					<iterations>1</iterations>
 					<rest>1</rest>
 				</changes>
-				<suggestbreak>true</suggestbreak>
+				<suggestbreak>
+                                    <descriptions>
+                                        <description>day or two</description>
+                                        <description locale="cs">Den či dva</description>
+                                    </descriptions>
+                                </suggestbreak>
 			</training>
 <!--day break-->
 			<training>
@@ -190,7 +215,9 @@
 					<iterations>1</iterations>
 					<rest>1</rest>
 				</changes>
-				<suggestbreak>true</suggestbreak>
+				<suggestbreak>
+                                    <!-- aprox half a week - week. But testign no description there-->
+                                </suggestbreak>
 			</training>
 		</trainings>
 	</cycle>

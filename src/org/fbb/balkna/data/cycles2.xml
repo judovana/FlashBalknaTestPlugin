@@ -40,7 +40,12 @@
 				<changes>
 					<iterations>0.9</iterations>
 				</changes>
-				<suggestbreak>true</suggestbreak>
+				<suggestbreak>
+                                    <descriptions>
+                                        <description>day or two</description>
+                                        <description locale="cs">Den či dva</description>
+                                    </descriptions>
+                                </suggestbreak>
 			</training>
 <!--day break-->
 			<training>
@@ -66,7 +71,12 @@
 				<changes>
 					<iterations>1.1</iterations>
 				</changes>
-				<suggestbreak>true</suggestbreak>
+				<suggestbreak>
+                                    <descriptions>
+                                        <description>day or two</description>
+                                        <description locale="cs">Den či dva</description>
+                                    </descriptions>
+                                </suggestbreak>
 			</training>
 <!--day break-->
 			<training>
@@ -92,7 +102,12 @@
 				<changes>
 					<iterations>1.2</iterations>
 				</changes>
-				<suggestbreak>true</suggestbreak>
+				<suggestbreak>
+                                    <descriptions>
+                                        <description>day or two</description>
+                                        <description locale="cs">Den či dva</description>
+                                    </descriptions>
+                                </suggestbreak>
 			</training>
 <!--day break-->
 			<training>
@@ -118,7 +133,12 @@
 				<changes>
 					<iterations>1.4</iterations>
 				</changes>
-				<suggestbreak>true</suggestbreak>
+				<suggestbreak>
+                                    <descriptions>
+                                        <description>day or two</description>
+                                        <description locale="cs">Den či dva</description>
+                                    </descriptions>
+                                </suggestbreak>
 			</training>
 		</trainings>
 	</cycle>
@@ -162,7 +182,12 @@
 				<changes>
 					<iterations>0.9</iterations>
 				</changes>
-				<suggestbreak>true</suggestbreak>
+				<suggestbreak>
+                                    <descriptions>
+                                        <description>day or two</description>
+                                        <description locale="cs">Den či dva</description>
+                                    </descriptions>
+                                </suggestbreak>
 			</training>
 <!--day break-->
 			<training>
@@ -188,7 +213,12 @@
 				<changes>
 					<iterations>1.1</iterations>
 				</changes>
-				<suggestbreak>true</suggestbreak>
+				<suggestbreak>
+                                    <descriptions>
+                                        <description>day or two</description>
+                                        <description locale="cs">Den či dva</description>
+                                    </descriptions>
+                                </suggestbreak>
 			</training>
 <!--day break-->
 			<training>
@@ -214,7 +244,12 @@
 				<changes>
 					<iterations>1.2</iterations>
 				</changes>
-				<suggestbreak>true</suggestbreak>
+				<suggestbreak>
+                                    <descriptions>
+                                        <description>day or two</description>
+                                        <description locale="cs">Den či dva</description>
+                                    </descriptions>
+                                </suggestbreak>
 			</training>
 <!--day break-->
 			<training>
@@ -240,7 +275,12 @@
 				<changes>
 					<iterations>1.4</iterations>
 				</changes>
-				<suggestbreak>true</suggestbreak>
+				<suggestbreak>
+                                    <descriptions>
+                                        <description>day or two</description>
+                                        <description locale="cs">Den či dva</description>
+                                    </descriptions>
+                                </suggestbreak>
 			</training>
 		</trainings>
 	</cycle>
@@ -284,7 +324,12 @@
 				<changes>
 					<iterations>0.9</iterations>
 				</changes>
-				<suggestbreak>true</suggestbreak>
+				<suggestbreak>
+                                    <descriptions>
+                                        <description>day or two</description>
+                                        <description locale="cs">Den či dva</description>
+                                    </descriptions>
+                                </suggestbreak>
 			</training>
 <!--day break-->
 			<training>
@@ -310,7 +355,12 @@
 				<changes>
 					<iterations>1.1</iterations>
 				</changes>
-				<suggestbreak>true</suggestbreak>
+				<suggestbreak>
+                                    <descriptions>
+                                        <description>day or two</description>
+                                        <description locale="cs">Den či dva</description>
+                                    </descriptions>
+                                </suggestbreak>
 			</training>
 <!--day break-->
 			<training>
@@ -336,7 +386,12 @@
 				<changes>
 					<iterations>1.2</iterations>
 				</changes>
-				<suggestbreak>true</suggestbreak>
+				<suggestbreak>
+                                    <descriptions>
+                                        <description>day or two</description>
+                                        <description locale="cs">Den či dva</description>
+                                    </descriptions>
+                                </suggestbreak>
 			</training>
 <!--day break-->
 			<training>
@@ -362,7 +417,12 @@
 				<changes>
 					<iterations>1.4</iterations>
 				</changes>
-				<suggestbreak>true</suggestbreak>
+				<suggestbreak>
+                                    <descriptions>
+                                        <description>Loong, at least half an week</description>
+                                        <description locale="cs">Dlouhy, alespon pul tydne</description>
+                                    </descriptions>
+                                </suggestbreak>
 			</training>
 		</trainings>
 	</cycle>

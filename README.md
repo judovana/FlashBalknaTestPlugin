@@ -1,13 +1,14 @@
 # FlashBalknaTestPlugin
 Exemplar plugin for FlashBalknaModel:
 
-Each plugin consists from  exercisesXXX.xml, exercisesXXX.xml  and optional images. Ideally saved in directory org/fbb/balkna/data as demonstrated in this example:
+Each plugin consists from  trainingsXXX.xml, exercisesXXX.xml and cyclesXXX.xml  and optional images. Ideally saved in directory org/fbb/balkna/data as demonstrated in this example:
 
 └── org
     └── fbb
         └── balkna
             └── data
                 ├── exercises2.xml
+                ├── cycles2.xml
                 ├── trainings2.xml
                 └── imgs
                     └── exercises
@@ -32,7 +33,7 @@ All together is then packed as zip. And you can upload it to any internet or loc
  - from tui - temporally usage via get URL
  - from gui in training settings, use text field and download button. 
 
-** Create custom exercises and trainings **
+** Create custom exercises and trainings and cycles**
 Editor is coming! But for now...
 exercisesXXX.xml, exercisesXXX.xml are descrabing - first individual exercises, second how those exercises are to be trained
 
@@ -51,7 +52,7 @@ Are always wrapped in <exercises> and <exercises-set>. Thats because each set ma
 
 Each exercise in this execise-set will have default time 10 seconds, pause between trainings 15 and 10 iterations (with rest before another exercises 60s) unless it owerrides it.
 
-Each exercise the looks like scripplet below. (individual image and description  elements are only obligatory)
+Each exercise the looks like scripplet below. ( images and descriptions  elements are only obligatory)
         <exercise>
             <id>a01</id> <! unique id among all exercises -->
             <names>
@@ -147,3 +148,88 @@ Also in addition, each <exercises> MAY be wrapped by <exercises-set count="X">
     </exercises-set>
 
 Which have he same result, as if you copy paste content of exercise-set X times.
+
+
+*Cycles*
+Cycles serves for long time training tracking and morphing.
+When time shift is on, it is applied on top of each exercise in each training so be careful.
+They are saved (similarly to trainings and exercises) as cyclesXXX.xml
+They are always wrapped by
+<cycles>
+And each  cycle is in 
+	<cycle>
+with
+		<id>cycle2_1</id>
+		<names>
+			<name>Classical iterations growing - 4 x 4 - easy</name>
+			<name locale="cs">Klasické navyšování iterací - 4 x 4 - lehký</name>
+		</names>
+		<descriptions>
+			<description></description>
+			<description locale="cs"></description>
+		</descriptions>
+        <!-- voulenteer image
+        <images>
+            <image>imgX.jpg</image>
+            <image>imgY.jpg</image>
+        </images>
+        -->     
+As training is wrapping exercises, cycle is wrapping trainings. So you write all trainng into
+		<trainings>
+wrapping element and then for each training
+			<training>
+You ahve to specify  its original id
+				<id>fbb1</id>
+and the changes you wont to apply to this training into element  changes eg like:
+				<changes>
+					<iterations>0.6</iterations> <!--floating number, part of iterations -->
+				</changes>
+			</training>
+			<training>
+				<id>fbb1</id>
+				<changes>
+					<iterations>0.7</iterations>
+				</changes>
+			</training>
+			<training>
+				<id>fbb1</id>
+				<changes>
+					<iterations>0.8</iterations>
+				</changes>
+			</training>
+			<training>
+				<id>fbb1</id>
+				<changes>
+					<iterations>0.9</iterations>
+				</changes>
+				<suggestbreak>
+                                    <descriptions>
+                                        <description>day or two</description>
+                                        <description locale="cs">Den či dva</description>
+                                    </descriptions>
+                                </suggestbreak>
+			</training>
+                        ....
+Now - changes may contain
+                                    <time>Z</time>
+                                    <pause>Y</pause>
+                                    <iterations>X</iterations>
+                                    <rest>W</rest>
+But unlike defaults and overrides, those are FLOATING numbers. Eg 0.5 or 1  or 1.3 which multiple (overrided) exercise's value. (the time shift, if any, si then calculated on top of it)
+So you can  pretty easily write training which go slowly, but steadily up, and allows also stressing jumps.
+The optional <suggestbreak></suggestbreak> is hint, which will write to documentation that you, as author, do recommend rest. Define in documentation what you mean by rest. Normal is day, but may think about week or just few hours.
+The descriptions elements in suggestbreak is mandatory. But as always, if presented, it have to have at least one description element (the one without locale attribute).
+
+** Localizations **
+You have probably noted, that each name/description can be saved in various localizations like:
+            <names>
+                <name>open hang on big ones on top</name>
+                <name locale="cs">otevřený úchop, velký madla za balknou</name>
+            </names>
+or
+           <descriptions>
+                <description>not yet</description>
+                <description locale="cs">nedodáno</description>            
+            </descriptions>
+
+The sentence  WITHOUT attribute LOCALE is mandatory, and is used when no localized value is found (for set/detected locale)
