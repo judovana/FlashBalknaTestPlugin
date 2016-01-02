@@ -1,8 +1,7 @@
 # FlashBalknaTestPlugin
 Exemplar plugin for FlashBalknaModel:
-
+Plugin can be zip/jar file downloaded from net (or created by you) or any directory inside your plugin(see a bit lower) directory containing the files organized in same way.
 Each plugin consists from  trainingsXXX.xml, exercisesXXX.xml and cyclesXXX.xml  and optional images. Ideally saved in directory org/fbb/balkna/data as demonstrated in this example:
-
 └── org
     └── fbb
         └── balkna
@@ -26,7 +25,7 @@ Each plugin consists from  trainingsXXX.xml, exercisesXXX.xml and cyclesXXX.xml 
 
 Where XXX is unique ID of you plugin. And should be used as prefix and suffix in all IDs in your plugin (not honored in this example)
 You do no need to honor the director structure, but it is recommended.
-All together is then packed as zip. And you can upload it to any internet or local destination and use in your application:
+All together is then packed as zip (or in named directory). And you can upload it to any internet or local destination and use in your application:
  - by copying to
   - pc:  XDG_CONFIG_DIR/FlashBalkna/plugins (which goes to HOME/.config/FlashBalkna/plugins mostly)
   - android who knows...
@@ -233,3 +232,55 @@ or
             </descriptions>
 
 The sentence  WITHOUT attribute LOCALE is mandatory, and is used when no localized value is found (for set/detected locale)
+
+
+** Sound Plugins **
+Your plugin can have complelty custom sounds.
+Unlike images and xml files, the sounds MUST honor the directory structure ( I guess sound plugins will be much less occuring)  of:
+org/fbb/balkna/data/soundpacks/SOUNDPACK_NAME/file.wav
+exemplar-plugin
+└── org
+    └── fbb
+        └── balkna
+            └── data
+                ├── cycles1.xml
+                ├── cycles2.xml
+                ├── exercises2.xml
+                ├── imgs
+                │   └── exercises
+                │       ├── push1.jpg
+                │       ├── push2.jpg
+                │       ├── push3.jpg
+                │       ├── push4.jpg
+                │       ├── push5.jpg
+                │       ├── push6.jpg
+                │       ├── push7.jpg
+                │       ├── push8.jpg
+                │       ├── push9.jpg
+                │       ├── pushRest1.jpg
+                │       └── pushRest2.jpg
+                ├── soundpacks
+                │   └── fbbhorror
+                │       ├── 1.wav
+                │       ├── 2.wav
+                │       ├── 3.wav
+                │       ├── change.wav
+                │       ├── endChange.wav
+                │       ├── endPause.wav
+                │       ├── endRun.wav
+                │       ├── halfPause.wav
+                │       ├── halfRun.wav
+                │       ├── halfSerie.wav
+                │       ├── halfTraining.wav
+                │       ├── lastExercise.wav
+                │       ├── lastSerie.wav
+                │       ├── start.wav
+                │       ├── threeQatsPause.wav
+                │       ├── threeQatsSerie.wav
+                │       ├── threeQatsTraining.wav
+                │       ├── threeQats.wav
+                │       └── trainingEnd.wav
+                └── trainings2.xml
+The filenames must be EXACTLY the same as in  main application (or in this exmaple) If you do miss some, the default sound of this name will be played.
+If you do not wont some, just create silent track of the name you do not wont to play:)
+
