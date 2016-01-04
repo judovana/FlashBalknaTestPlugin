@@ -147,7 +147,8 @@ Also in addition, each <exercises> MAY be wrapped by <exercises-set count="X">
     </exercises-set>
 
 Which have he same result, as if you copy paste content of exercise-set X times.
-
+Also, each  exercises-set can have default <overrides> element. If it is there, then each exercise have overriden its default values by numbers in overrides (each one, two, three or all  from time, pause, iterations, rest) 
+Still, overrides for each exercise will override  this default override.
 
 *Cycles*
 Cycles serves for long time training tracking and morphing.
@@ -283,4 +284,53 @@ exemplar-plugin
                 └── trainings2.xml
 The filenames must be EXACTLY the same as in  main application (or in this exmaple) If you do miss some, the default sound of this name will be played.
 If you do not wont some, just create silent track of the name you do not wont to play:)
+
+** overrides and changes **
+You know that each property (time, pause, iterations, rest) can have various modifiers. Here is example of calculation:
+Lets have exercise X:
+        <exercise>
+            ...
+            <id>X</id>
+          <defaults>
+                <time>5</time>
+                <pause>10</pause>
+                <iterations>15</iterations>
+                <rest>20</rest>
+            </defaults>
+        </exercise>
+It is included in training Y, in set:
+    ...
+    <exercises>
+          <exercises-set>
+            <overrides>
+              <time>10</time>
+              <pause>20</pause>
+              <iterations>10</iterations>
+            </overrides>
+            <exercise>
+                <id>X</id>
+            <overrides>
+              <pause>10</pause>
+              <rest>10</rest>
+            </overrides>
+            </exercise>    
+            ...
+When run from this training, it will have:
+time: 10        - because  of override in exercise-set in training
+pause: 10       - because  of override in exercise overrides the  override in exercise-set
+iterations: 10  - because  of override in exercise-set in training
+rest:10         - because  of override in exercise in training
+
+When training Y will be used in cycle Z which will use:
+				<changes>
+					<time>2</time>
+				</changes>
+And you will run this cycle with Training settings -> Training modifiers set on   time 1.5 , pause 1.5, iterations 0.5
+Then the exercise will be finally run as 
+time: 30        - because  10 * 2 (from cycle) * 1.5 (from runtime training settings) does
+pause: 15       - because  10 * 1.5
+iterations: 5  -  because 10 * 0.5 does
+rest:10         - because  no modifier was set for it
+
+Remember, You can always overwrite/modify one, two, three or all or non of the properties.
 

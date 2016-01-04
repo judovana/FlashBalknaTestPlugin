@@ -1,0 +1,275 @@
+<cycles>
+<!-- when time shift is on, it is applied on top of cycles change-->
+	<cycle>
+		<id>cycle3_1</id>
+		<names>
+			<name>Classical iterations growing - 4 x 4 - easy/advanced</name>
+			<name locale="cs">Klasické navyšování iterací - 4 x 4 - lehký/pokročilý</name>
+		</names>
+                <descriptions>
+			<description>Warning! Based on not official easy/advanced training</description>
+			<description locale="cs">Pozor! Založeno na neoficiálním lehký/pokročilý treninku</description>
+		</descriptions>
+		<trainings>
+			<training>
+				<id>fbb1++</id>
+				<changes>
+					<iterations>0.6</iterations> <!--floating number, part of iterations -->
+				</changes>
+			</training>
+			<training>
+				<id>fbb1++</id>
+				<changes>
+					<iterations>0.7</iterations>
+				</changes>
+			</training>
+			<training>
+				<id>fbb1++</id>
+				<changes>
+					<iterations>0.8</iterations>
+				</changes>
+			</training>
+			<training>
+				<id>fbb1++</id>
+				<changes>
+					<iterations>0.9</iterations>
+				</changes>
+				<suggestbreak>
+                                    <descriptions>
+                                        <description>day or two</description>
+                                        <description locale="cs">Den či dva</description>
+                                    </descriptions>
+                                </suggestbreak>
+			</training>
+<!--day break-->
+			<training>
+				<id>fbb1++</id>
+				<changes>
+					<iterations>0.6</iterations>
+				</changes>
+			</training>
+			<training>
+				<id>fbb1++</id>
+				<changes>
+					<iterations>0.8</iterations>
+				</changes>
+			</training>
+			<training>
+				<id>fbb1++</id>
+				<changes>
+					<iterations>1</iterations>
+				</changes>
+			</training>
+			<training>
+				<id>fbb1++</id>
+				<changes>
+					<iterations>1.1</iterations>
+				</changes>
+				<suggestbreak>
+                                    <descriptions>
+                                        <description>day or two</description>
+                                        <description locale="cs">Den či dva</description>
+                                    </descriptions>
+                                </suggestbreak>
+			</training>
+<!--day break-->
+			<training>
+				<id>fbb1++</id>
+				<changes>
+					<iterations>0.7</iterations>
+				</changes>
+			</training>
+			<training>
+				<id>fbb1++</id>
+				<changes>
+					<iterations>0.9</iterations>
+				</changes>
+			</training>
+			<training>
+				<id>fbb1++</id>
+				<changes>
+					<iterations>1.1</iterations>
+				</changes>
+			</training>
+			<training>
+				<id>fbb1++</id>
+				<changes>
+					<iterations>1.2</iterations>
+				</changes>
+				<suggestbreak>
+                                    <descriptions>
+                                        <description>day or two</description>
+                                        <description locale="cs">Den či dva</description>
+                                    </descriptions>
+                                </suggestbreak>
+			</training>
+<!--day break-->
+			<training>
+				<id>fbb1++</id>
+				<changes>
+					<iterations>0.8</iterations>
+				</changes>
+			</training>
+			<training>
+				<id>fbb1++</id>
+				<changes>
+					<iterations>1</iterations>
+				</changes>
+			</training>
+			<training>
+				<id>fbb1++</id>
+				<changes>
+					<iterations>1.2</iterations>
+				</changes>
+			</training>
+			<training>
+				<id>fbb1++</id>
+				<changes>
+					<iterations>1.4</iterations>
+				</changes>
+				<suggestbreak>
+                                    <descriptions>
+                                        <description>day or two</description>
+                                        <description locale="cs">Den či dva</description>
+                                    </descriptions>
+                                </suggestbreak>
+			</training>
+		</trainings>
+	</cycle>
+	<cycle>
+		<id>cycle3_3</id>
+		<names>
+			<name>Classical iterations growing - 4 x 4 - advanced/hard</name>
+			<name locale="cs">Klasické navyšování iterací - 4 x 4 - pokročilý/těžký</name>
+		</names>
+                 <descriptions>
+			<description>Warning! Based on not official advanced/hard training</description>
+			<description locale="cs">Pozor! Založeno na neoficiálním pokročilý/těžký treninku</description>
+		</descriptions>
+		<trainings>
+			<training>
+				<id>fbb3--</id>
+				<changes>
+					<iterations>0.6</iterations> <!--floating number, part of iterations -->
+				</changes>
+			</training>
+			<training>
+				<id>fbb3--</id>
+				<changes>
+					<iterations>0.7</iterations>
+				</changes>
+			</training>
+			<training>
+				<id>fbb3--</id>
+				<changes>
+					<iterations>0.8</iterations>
+				</changes>
+			</training>
+			<training>
+				<id>fbb3--</id>
+				<changes>
+					<iterations>0.9</iterations>
+				</changes>
+				<suggestbreak>
+                                    <descriptions>
+                                        <description>day or two</description>
+                                        <description locale="cs">Den či dva</description>
+                                    </descriptions>
+                                </suggestbreak>
+			</training>
+<!--day break-->
+			<training>
+				<id>fbb3--</id>
+				<changes>
+					<iterations>0.6</iterations>
+				</changes>
+			</training>
+			<training>
+				<id>fbb3--</id>
+				<changes>
+					<iterations>0.8</iterations>
+				</changes>
+			</training>
+			<training>
+				<id>fbb3--</id>
+				<changes>
+					<iterations>1</iterations>
+				</changes>
+			</training>
+			<training>
+				<id>fbb3--</id>
+				<changes>
+					<iterations>1.1</iterations>
+				</changes>
+				<suggestbreak>
+                                    <descriptions>
+                                        <description>day or two</description>
+                                        <description locale="cs">Den či dva</description>
+                                    </descriptions>
+                                </suggestbreak>
+			</training>
+<!--day break-->
+			<training>
+				<id>fbb3--</id>
+				<changes>
+					<iterations>0.7</iterations>
+				</changes>
+			</training>
+			<training>
+				<id>fbb3--</id>
+				<changes>
+					<iterations>0.9</iterations>
+				</changes>
+			</training>
+			<training>
+				<id>fbb3--</id>
+				<changes>
+					<iterations>1.1</iterations>
+				</changes>
+			</training>
+			<training>
+				<id>fbb3--</id>
+				<changes>
+					<iterations>1.2</iterations>
+				</changes>
+				<suggestbreak>
+                                    <descriptions>
+                                        <description>day or two</description>
+                                        <description locale="cs">Den či dva</description>
+                                    </descriptions>
+                                </suggestbreak>
+			</training>
+<!--day break-->
+			<training>
+				<id>fbb3--</id>
+				<changes>
+					<iterations>0.8</iterations>
+				</changes>
+			</training>
+			<training>
+				<id>fbb3--</id>
+				<changes>
+					<iterations>1</iterations>
+				</changes>
+			</training>
+			<training>
+				<id>fbb3--</id>
+				<changes>
+					<iterations>1.2</iterations>
+				</changes>
+			</training>
+			<training>
+				<id>fbb3--</id>
+				<changes>
+					<iterations>1.4</iterations>
+				</changes>
+				<suggestbreak>
+                                    <descriptions>
+                                        <description>Loong, at least half an week</description>
+                                        <description locale="cs">Dlouhy, alespon pul tydne</description>
+                                    </descriptions>
+                                </suggestbreak>
+			</training>
+		</trainings>
+	</cycle>
+</cycles>

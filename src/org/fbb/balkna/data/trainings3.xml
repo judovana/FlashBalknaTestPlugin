@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+čau první série fotek je nejlehčí a je v režimu,10 úchopů a každý uchop je 10 opakování 10 vteřin vis a 15 vteřin pauza, mezi zmíněnou cviků minuta pauza.druhá série fotek je středně těžká a je to 10 úchopů a každý uchop má 10 opakování,10 vteřin vis 10 vteřin pauza mezi změnou cviků minuta pauza.třetí série je těžká a je to 10 druhů úchopů po patnácti opakovaných,15 vteřin vis a 10 vteřin pauza mezi zmíněnou úchopů minuta pauza. 
+-->
+<trainings>
+    <training>
+        <id>fbb1++</id>
+        <names>
+            <name>FBB training level easy/advanced</name>
+            <name locale="cs">FBB lehký/střední trénink</name>
+        </names>
+        <descriptions>
+            <description>Harder version of FBB easy training - rests are only 10s</description>
+            <description locale="cs">Těžší verze  FBB lehkého tréninku - odpočinky zkráceny na 10s</description>            
+        </descriptions>
+        <exercises>
+          <exercises-set>
+            <overrides>
+              <time>10</time>
+              <pause>10</pause>
+              <iterations>10</iterations>
+            </overrides>
+            <exercise>
+                <id>a01</id>
+            </exercise>    
+            <exercise>
+                <id>a02</id>
+            </exercise>
+            <exercise>
+                <id>a03</id>
+            </exercise>
+            <exercise>
+                <id>a04</id>
+            </exercise>
+            <exercise>
+                <id>a05</id>
+            </exercise>
+            <exercise>
+                <id>a06</id>
+            </exercise>
+            <exercise>
+                <id>a07</id>
+            </exercise>
+            <exercise>
+                <id>a08</id>
+            </exercise>
+            <exercise>
+                <id>a09</id>
+            </exercise>
+            <exercise>
+                <id>a10</id>
+            </exercise>
+          </exercises-set>
+        </exercises>
+    </training>
+
+    <training>
+        <id>fbb3--</id>
+        <names>
+            <name>FBB training advanced/hard</name>
+            <name locale="cs">FBB trénink střední/těžký</name>
+        </names>
+        <descriptions>
+            <description>Easier version of FBB hard training - hangs are only 10s</description>
+            <description locale="cs">Lehčí verze  FBB těžkého tréninku - visi zkráceny na 10s</description>            
+        </descriptions>
+        <exercises>
+          <exercises-set>
+            <overrides>
+              <time>10</time>
+              <pause>10</pause>
+              <iterations>10</iterations>
+            </overrides>
+            <exercise>
+                <id>c01</id>
+            </exercise>    
+            <exercise>
+                <id>b03</id>
+            </exercise>
+            <exercise>
+                <id>b07</id>
+            </exercise>
+            <exercise>
+                <id>b08</id>
+            </exercise>
+            <exercise>
+                <id>c05</id>
+            </exercise>
+            <exercise>
+                <id>c06</id>
+            </exercise>
+            <exercise>
+                <id>c07</id>
+            </exercise>
+            <exercise>
+                <id>b08</id>
+            </exercise>
+            <exercise>
+                <id>c09</id>
+            </exercise>
+            <exercise>
+                <id>c10</id>
+            </exercise>
+            <exercise>
+                <id>c11</id>
+            </exercise>
+          </exercises-set>
+        </exercises>
+    </training>    
+    
+</trainings>
