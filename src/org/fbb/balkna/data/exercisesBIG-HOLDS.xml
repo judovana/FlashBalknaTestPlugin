@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+big-big.jpg
+biggest-big1.jpg biggest-big2.jpg
+biggest-sloopy1.jpg biggest-sloopy2.jpg
+biggest-sloopy-close1.jpg biggest-sloopy-close2.jpg
+sloopy-big1.jpg sloopy-big2.jpg
+a01.jpg (bigest biggest)
+-->
+
+
+<exercises>
+    <exercises-set>
+        <set-defaults>
+            <time>10</time>
+            <pause>10</pause>
+            <iterations>10</iterations>
+            <rest>60</rest>
+        </set-defaults>
+        <exercise>
+            <id>BiggestBiggest</id>
+            <names>
+                <name>Biggest-Biggest</name>
+                <name locale="cs">Největší-Největěí</name>
+            </names>
+            <images>
+                <image>a01.jpg</image>
+            </images>
+        </exercise>
+        <exercise>
+            <id>big-big</id>
+            <names>
+                <name>Big-Big</name>
+                <name locale="cs">Velkej-Velkej</name>
+            </names>
+            <images>
+                <image>%{id}.jpg</image>
+            </images>
+        </exercise>
+        <exercise>
+            <id>biggest-big1</id>
+            <names>
+                <name>Biggest-Big</name>
+                <name locale="cs">Největší-Velkej</name>
+            </names>
+            <images>
+                <image>%{id}.jpg</image>
+            </images>
+        </exercise>
+        <exercise>
+            <id>biggest-big2</id>
+            <names>
+                <name>Big-Biggest</name>
+                <name locale="cs">Velkej-Největší</name>
+            </names>
+            <images>
+                <image>%{id}.jpg</image>
+            </images>
+        </exercise>
+       <exercise>
+            <id>biggest-sloopy1</id>
+            <names>
+                <name>Biggest-Sloopy</name>
+                <name locale="cs">Největší-Šikmej</name>
+            </names>
+            <images>
+                <image>%{id}.jpg</image>
+            </images>
+        </exercise>
+       <exercise>
+            <id>biggest-sloopy2</id>
+            <names>
+                <name>Sloopy-Biggest</name>
+                <name locale="cs">Šikmej-Největší</name>
+            </names>
+            <images>
+                <image>%{id}.jpg</image>
+            </images>
+        </exercise>
+      <exercise>
+            <id>biggest-sloopy-close2</id>
+            <names>
+                <name>Biggest-Sloopy(close)</name>
+                <name locale="cs">Největší-Šikmej(blízko)</name>
+            </names>
+            <images>
+                <image>%{id}.jpg</image>
+            </images>
+        </exercise>
+       <exercise>
+            <id>biggest-sloopy-close1</id>
+            <names>
+                <name>Sloopy-Biggest(close)</name>
+                <name locale="cs">Šikmej-Největší(blízko)</name>
+            </names>
+            <images>
+                <image>%{id}.jpg</image>
+            </images>
+        </exercise>
+       <exercise>
+            <id>sloopy-big2</id>
+            <names>
+                <name>Big-Sloopy</name>
+                <name locale="cs">Velkej-Šikmej</name>
+            </names>
+            <images>
+                <image>%{id}.jpg</image>
+            </images>
+        </exercise>
+       <exercise>
+            <id>sloopy-big1</id>
+            <names>
+                <name>Sloopy-Big</name>
+                <name locale="cs">Šikmej-Velkej</name>
+            </names>
+            <images>
+                <image>%{id}.jpg</image>
+            </images>
+        </exercise>
+    </exercises-set>
+</exercises>
