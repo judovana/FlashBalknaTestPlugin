@@ -1,3 +1,4 @@
+```
 # FlashBalknaTestPlugin
 Exemplar plugin for FlashBalknaModel:
 Plugin can be zip/jar file downloaded from net (or created by you) or any directory inside your plugin(see a bit lower) directory containing the files organized in same way.
@@ -333,4 +334,4 @@ iterations: 5  -  because 10 * 0.5 does
 rest:10         - because  no modifier was set for it
 
 Remember, You can always overwrite/modify one, two, three or all or non of the properties.
-
+```
