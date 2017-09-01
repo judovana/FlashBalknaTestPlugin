@@ -1,0 +1,772 @@
+<cycles>
+    <!-- when time shift is on, it is applied on top of cycles change-->
+    <cycle>
+        <id>cycle4_1</id>
+        <names>
+            <name>Classical length growing - 4 x 4 - easy</name>
+            <name locale="cs">Klasické navyšování délky visu - 4 x 4 - lehký</name>
+        </names>
+        <descriptions>
+            <description>Based on easy training</description>
+            <description locale="cs">Založeno na lehký treninku</description>
+        </descriptions>
+        <trainings>
+            <training>
+                <id>fbb1</id>
+                <changes>
+                    <time>0.8</time>
+                    <pause>0.9</pause> <!--floating number, part of time or pause -->
+                </changes>
+            </training>
+            <training>
+                <id>fbb1</id>
+                <changes>
+                    <time>1.0</time>
+                    <pause>1.0</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb1</id>
+                <changes>
+                    <time>1.2</time>
+                    <pause>1.1</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb1</id>
+                <changes>
+                    <time>1.4</time>
+                    <pause>1.2</pause>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>day or two</description>
+                        <description locale="cs">Den či dva</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <!--day break-->
+            <training>
+                <id>fbb1</id>
+                <changes>
+                    <time>0.9</time>
+                    <pause>0.9</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb1</id>
+                <changes>
+                    <time>1.1</time>
+                    <pause>1.0</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb1</id>
+                <changes>
+                    <time>1.3</time>
+                    <pause>1.1</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb1</id>
+                <changes>
+                    <time>1.5</time>
+                    <pause>1.2</pause>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>day or two</description>
+                        <description locale="cs">Den či dva</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <!--day break-->
+            <training>
+                <id>fbb1</id>
+                <changes>
+                    <time>1.0</time>
+                    <pause>0.8</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb1</id>
+                <changes>
+                    <time>1.2</time>
+                    <pause>0.9</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb1</id>
+                <changes>
+                    <time>1.4</time>
+                    <pause>1.0</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb1</id>
+                <changes>
+                    <time>1.6</time>
+                    <pause>1.1</pause>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>day or two</description>
+                        <description locale="cs">Den či dva</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <!--day break-->
+            <training>
+                <id>fbb1</id>
+                <changes>
+                    <time>1.1</time>
+                    <pause>0.8</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb1</id>
+                <changes>
+                    <time>1.3</time>
+                    <pause>0.9</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb1</id>
+                <changes>
+                    <time>1.5</time>
+                    <pause>1.0</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb1</id>
+                <changes>
+                    <time>1.7</time>
+                    <pause>1.1</pause>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>day or two</description>
+                        <description locale="cs">Den či dva</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+        </trainings>
+    </cycle>
+    <cycle>
+        <id>cycle4_11</id>
+        <names>
+            <name>Classical length growing - 4 x 4 - easy/advanced</name>
+            <name locale="cs">Klasické navyšování délky visu - 4 x 4 - lehký/pokročilý</name>
+        </names>
+        <descriptions>
+            <description>Warning! Based on not official easy/advanced training</description>
+            <description locale="cs">Pozor! Založeno na neoficiálním lehký/pokročilý treninku</description>
+        </descriptions>
+        <trainings>
+            <training>
+                <id>fbb1++</id>
+                <changes>
+                    <time>0.8</time>
+                    <pause>0.9</pause> <!--floating number, part of time or pause -->
+                </changes>
+            </training>
+            <training>
+                <id>fbb1++</id>
+                <changes>
+                    <time>1.0</time>
+                    <pause>1.0</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb1++</id>
+                <changes>
+                    <time>1.2</time>
+                    <pause>1.1</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb1++</id>
+                <changes>
+                    <time>1.4</time>
+                    <pause>1.2</pause>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>day or two</description>
+                        <description locale="cs">Den či dva</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <!--day break-->
+            <training>
+                <id>fbb1++</id>
+                <changes>
+                    <time>0.9</time>
+                    <pause>0.9</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb1++</id>
+                <changes>
+                    <time>1.1</time>
+                    <pause>1.0</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb1++</id>
+                <changes>
+                    <time>1.3</time>
+                    <pause>1.1</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb1++</id>
+                <changes>
+                    <time>1.5</time>
+                    <pause>1.2</pause>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>day or two</description>
+                        <description locale="cs">Den či dva</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <!--day break-->
+            <training>
+                <id>fbb1++</id>
+                <changes>
+                    <time>1.0</time>
+                    <pause>0.8</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb1++</id>
+                <changes>
+                    <time>1.2</time>
+                    <pause>0.9</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb1++</id>
+                <changes>
+                    <time>1.4</time>
+                    <pause>1.0</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb1++</id>
+                <changes>
+                    <time>1.6</time>
+                    <pause>1.1</pause>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>day or two</description>
+                        <description locale="cs">Den či dva</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <!--day break-->
+            <training>
+                <id>fbb1++</id>
+                <changes>
+                    <time>1.1</time>
+                    <pause>0.8</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb1++</id>
+                <changes>
+                    <time>1.3</time>
+                    <pause>0.9</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb1++</id>
+                <changes>
+                    <time>1.5</time>
+                    <pause>1.0</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb1++</id>
+                <changes>
+                    <time>1.7</time>
+                    <pause>1.1</pause>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>day or two</description>
+                        <description locale="cs">Den či dva</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+        </trainings>
+    </cycle>
+    <cycle>
+        <id>cycle4_2</id>
+        <names>
+            <name>Classical length growing - 4 x 4 - advanced</name>
+            <name locale="cs">Klasické navyšování délky visu - 4 x 4 - střední</name>
+        </names>
+        <descriptions>
+            <description></description>
+            <description locale="cs"></description>
+        </descriptions>
+        <!-- voulenteer image
+        <images>
+            <image>imgX.jpg</image>
+            <image>imgY.jpg</image>
+        </images>
+        -->     
+        <trainings>
+            <training>
+                <id>fbb2</id>
+                <changes>
+                    <time>0.8</time>
+                    <pause>0.9</pause> <!--floating number, part of time or pause -->
+                </changes>
+            </training>
+            <training>
+                <id>fbb2</id>
+                <changes>
+                    <time>1.0</time>
+                    <pause>1.0</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb2</id>
+                <changes>
+                    <time>1.2</time>
+                    <pause>1.1</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb2</id>
+                <changes>
+                    <time>1.4</time>
+                    <pause>1.2</pause>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>day or two</description>
+                        <description locale="cs">Den či dva</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <!--day break-->
+            <training>
+                <id>fbb2</id>
+                <changes>
+                    <time>0.9</time>
+                    <pause>0.9</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb2</id>
+                <changes>
+                    <time>1.1</time>
+                    <pause>1.0</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb2</id>
+                <changes>
+                    <time>1.3</time>
+                    <pause>1.1</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb2</id>
+                <changes>
+                    <time>1.5</time>
+                    <pause>1.2</pause>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>day or two</description>
+                        <description locale="cs">Den či dva</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <!--day break-->
+            <training>
+                <id>fbb2</id>
+                <changes>
+                    <time>1.0</time>
+                    <pause>0.8</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb2</id>
+                <changes>
+                    <time>1.2</time>
+                    <pause>0.9</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb2</id>
+                <changes>
+                    <time>1.4</time>
+                    <pause>1.0</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb2</id>
+                <changes>
+                    <time>1.6</time>
+                    <pause>1.1</pause>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>day or two</description>
+                        <description locale="cs">Den či dva</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <!--day break-->
+            <training>
+                <id>fbb2</id>
+                <changes>
+                    <time>1.1</time>
+                    <pause>0.8</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb2</id>
+                <changes>
+                    <time>1.3</time>
+                    <pause>0.9</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb2</id>
+                <changes>
+                    <time>1.5</time>
+                    <pause>1.0</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb2</id>
+                <changes>
+                    <time>1.7</time>
+                    <pause>1.1</pause>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>day or two</description>
+                        <description locale="cs">Den či dva</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+        </trainings>
+    </cycle>
+    <cycle>
+        <id>cycle4_3</id>
+        <names>
+            <name>Classical length growing - 4 x 4 - advanced/hard</name>
+            <name locale="cs">Klasické navyšování délky visu - 4 x 4 - pokročilý/těžký</name>
+        </names>
+        <descriptions>
+            <description>Warning! Based on not official advanced/hard training</description>
+            <description locale="cs">Pozor! Založeno na neoficiálním pokročilý/těžký treninku</description>
+        </descriptions>
+        <trainings>
+            <training>
+                <id>fbb3--</id>
+                <changes>
+                    <time>0.8</time>
+                    <pause>0.9</pause> <!--floating number, part of time or pause -->
+                </changes>
+            </training>
+            <training>
+                <id>fbb3--</id>
+                <changes>
+                    <time>1.0</time>
+                    <pause>1.0</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb3--</id>
+                <changes>
+                    <time>1.2</time>
+                    <pause>1.1</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb3--</id>
+                <changes>
+                    <time>1.4</time>
+                    <pause>1.2</pause>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>day or two</description>
+                        <description locale="cs">Den či dva</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <!--day break-->
+            <training>
+                <id>fbb3--</id>
+                <changes>
+                    <time>0.9</time>
+                    <pause>0.9</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb3--</id>
+                <changes>
+                    <time>1.1</time>
+                    <pause>1.0</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb3--</id>
+                <changes>
+                    <time>1.3</time>
+                    <pause>1.1</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb3--</id>
+                <changes>
+                    <time>1.5</time>
+                    <pause>1.2</pause>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>day or two</description>
+                        <description locale="cs">Den či dva</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <!--day break-->
+            <training>
+                <id>fbb3--</id>
+                <changes>
+                    <time>1.0</time>
+                    <pause>0.8</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb3--</id>
+                <changes>
+                    <time>1.2</time>
+                    <pause>0.9</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb3--</id>
+                <changes>
+                    <time>1.4</time>
+                    <pause>1.0</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb3--</id>
+                <changes>
+                    <time>1.6</time>
+                    <pause>1.1</pause>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>day or two</description>
+                        <description locale="cs">Den či dva</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <!--day break-->
+            <training>
+                <id>fbb3--</id>
+                <changes>
+                    <time>1.1</time>
+                    <pause>0.8</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb3--</id>
+                <changes>
+                    <time>1.3</time>
+                    <pause>0.9</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb3--</id>
+                <changes>
+                    <time>1.5</time>
+                    <pause>1.0</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb3--</id>
+                <changes>
+                    <time>1.7</time>
+                    <pause>1.1</pause>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>day or two</description>
+                        <description locale="cs">Den či dva</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+        </trainings>
+    </cycle>
+    
+    
+    
+    <cycle>
+        <id>cycle4_33</id>
+        <names>
+            <name>Classical length growing - 4 x 4 - hard</name>
+            <name locale="cs">Klasické navyšování délky visu - 4 x 4 - těžký</name>
+        </names>
+        <descriptions>
+            <description>Based hard training</description>
+            <description locale="cs">Založeno na těžký treninku</description>
+        </descriptions>
+        <trainings>
+            <training>
+                <id>fbb3</id>
+                <changes>
+                    <time>0.8</time>
+                    <pause>0.9</pause> <!--floating number, part of time or pause -->
+                </changes>
+            </training>
+            <training>
+                <id>fbb3</id>
+                <changes>
+                    <time>1.0</time>
+                    <pause>1.0</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb3</id>
+                <changes>
+                    <time>1.2</time>
+                    <pause>1.1</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb3</id>
+                <changes>
+                    <time>1.4</time>
+                    <pause>1.2</pause>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>day or two</description>
+                        <description locale="cs">Den či dva</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <!--day break-->
+            <training>
+                <id>fbb3</id>
+                <changes>
+                    <time>0.9</time>
+                    <pause>0.9</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb3</id>
+                <changes>
+                    <time>1.1</time>
+                    <pause>1.0</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb3</id>
+                <changes>
+                    <time>1.3</time>
+                    <pause>1.1</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb3</id>
+                <changes>
+                    <time>1.5</time>
+                    <pause>1.2</pause>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>day or two</description>
+                        <description locale="cs">Den či dva</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <!--day break-->
+            <training>
+                <id>fbb3</id>
+                <changes>
+                    <time>1.0</time>
+                    <pause>0.8</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb3</id>
+                <changes>
+                    <time>1.2</time>
+                    <pause>0.9</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb3</id>
+                <changes>
+                    <time>1.4</time>
+                    <pause>1.0</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb3</id>
+                <changes>
+                    <time>1.6</time>
+                    <pause>1.1</pause>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>day or two</description>
+                        <description locale="cs">Den či dva</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+            <!--day break-->
+            <training>
+                <id>fbb3</id>
+                <changes>
+                    <time>1.1</time>
+                    <pause>0.8</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb3</id>
+                <changes>
+                    <time>1.3</time>
+                    <pause>0.9</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb3</id>
+                <changes>
+                    <time>1.5</time>
+                    <pause>1.0</pause>
+                </changes>
+            </training>
+            <training>
+                <id>fbb3</id>
+                <changes>
+                    <time>1.7</time>
+                    <pause>1.1</pause>
+                </changes>
+                <suggestbreak>
+                    <descriptions>
+                        <description>day or two</description>
+                        <description locale="cs">Den či dva</description>
+                    </descriptions>
+                </suggestbreak>
+            </training>
+        </trainings>
+    </cycle>
+</cycles>
